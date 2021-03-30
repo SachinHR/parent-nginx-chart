@@ -23,4 +23,3 @@ spec:
       - name: init-myservice
         image: busybox
         command: ['sh', '-c', "sleep 2"]
-        
