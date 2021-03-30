@@ -1,0 +1,23 @@
+# Redis
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: redis
+  labels:
+    chart:version
+spec:
+  selector:
+    matchLabels:
+      app: redis
+  replicas: 1 
+  template:
+    metadata:
+      labels:
+        app: redis
+    spec:
+      containers:
+      - name: redis
+        image: redis:5.6
+        ports:
+        - containerPort: 6379
