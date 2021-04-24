@@ -10,4 +10,4 @@
 
 # Chart Image
 
-![Chart Image](Chart_Image.png)
+![Chart Image](Chart_image.png)
