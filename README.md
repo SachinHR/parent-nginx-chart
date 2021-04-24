@@ -11,9 +11,3 @@
 # Chart Image
 
 ![Chart Image](Chart_Image.png)
-
-# Deploy all the above using 1 single helm chart (using umbrella chart) 
-
-/home/parent-nginx-chart  
-RUN : helm install --dry-run --debug complex-chart .  
-RUN : helm install complex-chart .
